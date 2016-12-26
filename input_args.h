@@ -10,4 +10,6 @@ struct input_struct {
 
 input_struct get_args(int, char**);
 
+bool is_number(const std::string& s);
+
 void print_help();
