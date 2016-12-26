@@ -60,4 +60,16 @@ bool is_number(const std::string& s)
 }
 
 void print_help() {
+    cout << "usage: ./RSAKeyGenerator [MODE] [MODE_ARGUMENT]\n"
+         << "MODE:\n"
+         << "    -s --single\n"
+         << "        Generates a single RSA key pair. Enter a second optional argument\n"
+         << "        MODE_ARGUMENT for the minimal number of bits. MODE_ARGUMENT no\n"
+         << "        lesser than 1024 and no greater than 2048. Default is 1024\n"
+         << "    -a --alloy\n"
+         << "        Initialize a RSA key generator for the Alloy server. Enter a second\n"
+         << "        optional argument MODE_ARGUMENT for the server socket port number.\n"
+         << "        MODE_ARGUMENT no lesser than 1024 and no greater than 9999. Default\n"
+         << "        is 4096." << endl;
 }
+

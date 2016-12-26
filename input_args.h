@@ -3,6 +3,8 @@
 #include <iostream>
 #include <cstring>
 
+using namespace std;
+
 struct input_struct {
     char mode;
     int data;

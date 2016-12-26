@@ -1,5 +1,5 @@
 # Put target here
-	TARGETS = generator.cpp
+	TARGETS = generator.cpp input_args.cpp
 
 # designate which compiler to use
 	CXX = g++
